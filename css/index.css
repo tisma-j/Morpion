@@ -44,7 +44,6 @@ p{
 .button{
   width: 150px;
   height: 40px;
-  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
