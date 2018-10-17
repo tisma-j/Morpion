@@ -3,9 +3,7 @@ body{
 }
 
 h1{
-  font-family: 'DINOT-CondBold';
-  font-weight: bold;
-  font-style: normal;
+  font-family: 'Fjalla One', sans-serif;
   font-size: 4em;
   letter-spacing: 20px;
 }
