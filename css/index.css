@@ -1,0 +1,70 @@
+body{
+margin: 0;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+
+.img{
+  width: 50%;
+  height: 100%;
+  background-image: url(../img/game.jpg);
+  background-size: cover;
+  background-position: 50%;
+  border: 20px white solid;
+  box-sizing: border-box;
+}
+
+.text{
+  position: relative;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-left: 30px;
+}
+
+h1{
+  font-family: 'DINOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 4em;
+  letter-spacing: 20px;
+}
+
+p{
+  font-family: 'DINOT';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.250em;
+}
+
+.button{
+  width: 150px;
+  height: 40px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #f2af00;
+  margin-top: 30px;
+}
+
+a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-family: 'DINOT';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.125em;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}

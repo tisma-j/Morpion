@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Morpion</title>
+    <link rel="stylesheet" href="/css/morpion.css">
+  </head>
+  <body>
+  <div class="container">
+    <a href="index.html"><img src="img/arrow.png" alt="" ></a>
+    <div class="game">
+      <div class="text">
+        <h1>MORPION</h1>
+      </div>
+      <div class="m">
+        <div class="morpion">
+          <div class="ligne">
+            <div class="case"></div>
+            <div class="case"></div>
+            <div class="case"></div>
+          </div>
+          <div class="ligne">
+            <div class="case"></div>
+            <div class="case"></div>
+            <div class="case"></div>
+          </div>
+          <div class="ligne">
+            <div class="case"></div>
+            <div class="case"></div>
+            <div class="case"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <div class="player">
+        <p>Jouer 1 = X</p>
+        <p>Jouer 2 = O</p>
+        <div class="change">
+          <div class="tours">
+            <h4>A qui le tour :</H4>
+          </div>
+          <div class="joueurs">
+            <p id="changeplayer">J1</p>
+          </div>
+        </div>
+      </div>
+      <div class="playagain">
+        <h2 class="win">Winner is J2</h2>
+        <div class="button">
+          <a href="javascript:window.location.reload()"><p>Restart</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/morpion.js" charset="utf-8"></script>
+  </body>
+</html>

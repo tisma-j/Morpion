@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+}
+
+h1{
+  font-family: 'DINOT-CondBold';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 4em;
+  letter-spacing: 20px;
+}
+
+a{
+  text-decoration: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+
+h4, p, h2{
+  font-family: 'DINOT';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.250em;
+}
+
+img{
+  position: relative;
+  height: 30px;
+  width: 30px;
+  margin: 20px;
+}
+
+.container{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  border: 20px #f2af00 solid;
+  box-sizing: border-box;
+}
+
+.game{
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.morpion{
+  width: 450px;
+  height: 450px;
+  display: flex;
+}
+
+.ligne{
+  display: flex;
+  flex-direction: column;
+}
+
+.case{
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.win{
+  font-family: 'DINOT';
+  font-weight: bold;
+  font-style: normal;  color: black;
+  opacity: 0;
+}
+
+.button{
+  width: 180px;
+  height: 40px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #f2af00;
+  margin-top: 30px;
+}
+
+a{
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-family: 'DINOT';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.125em;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.winnerj1{
+  opacity: 1;
+}
+
+.player{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.change{
+ width: 100%;
+ display: flex;
+ align-items: center;
+}
+
+.tours{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.joueurs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cross{
+  background-image: url(../img/croix.png);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.round{
+  background-image: url(../img/rond.png);
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
